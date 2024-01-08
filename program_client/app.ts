@@ -20,7 +20,7 @@ async function main(feePayer: Keypair) {
     });
 
     // TODO: Specify the smart contract Program Id we saved from when we deploy the smart contract
-    const progId = new PublicKey("");
+    const progId = new PublicKey("332FU8oWgpb6pWA5mV1LhdmkynV21ssuupYVXT1sZJJp");
 
     initializeClient(progId, connection);
 
